@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="lib1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.web/lib/hobbyFeed.web.models.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.web/lib/guice-throwingproviders-4.0-beta.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.web/lib/guice-persist-4.0-beta.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.web/lib/aopalliance.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.web/lib/guice-servlet-4.0-beta.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.web/lib/guice-grapher-4.0-beta.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.web/lib/javax.inject.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.web/lib/hobbyFeed.web.integration.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.web/lib/guice-4.0-beta.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.web/lib/guice-jndi-4.0-beta.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.web/lib/guice-spring-4.0-beta.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.web/lib/guice-struts2-plugin-4.0-beta.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.web/lib/guice-multibindings-4.0-beta.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.web/lib/guice-jmx-4.0-beta.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.web/lib/guice-assistedinject-4.0-beta.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

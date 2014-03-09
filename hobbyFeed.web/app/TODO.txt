@@ -1,0 +1,5 @@
+1) setup DI container
+2) setup coffee
+2) login
+3) screen design
+4) mock screens

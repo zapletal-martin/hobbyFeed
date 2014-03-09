@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../hobbyFeed.web/hobbyFeed.iml" filepath="$PROJECT_DIR$/../hobbyFeed.web/hobbyFeed.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hobbyFeed.web/project/hobbyFeed-build.iml" filepath="$PROJECT_DIR$/../hobbyFeed.web/project/hobbyFeed-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hobbyFeed.api.iml" filepath="$PROJECT_DIR$/hobbyFeed.api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hobbyFeed.business/hobbyFeed.business.iml" filepath="$PROJECT_DIR$/../hobbyFeed.business/hobbyFeed.business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hobbyFeed.web.integration/hobbyFeed.web.integration.iml" filepath="$PROJECT_DIR$/../hobbyFeed.web.integration/hobbyFeed.web.integration.iml" />
+    </modules>
+  </component>
+</project>
+

@@ -1,0 +1,31 @@
+<component name="libraryTable">
+  <library name="netty-buffer-4.0.12.Final">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.business/lib/netty-buffer-4.0.12.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.business/lib/netty-codec-4.0.12.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.business/lib/netty-codec-http-4.0.12.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.business/lib/netty-codec-socks-4.0.12.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.business/lib/netty-common-4.0.12.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.business/lib/netty-example-4.0.12.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.business/lib/netty-handler-4.0.12.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.business/lib/netty-transport-4.0.12.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.business/lib/netty-transport-rxtx-4.0.12.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.business/lib/netty-transport-sctp-4.0.12.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.business/lib/netty-transport-udt-4.0.12.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.business/lib/netty-buffer-4.0.12.Final-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.business/lib/netty-codec-4.0.12.Final-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.business/lib/netty-codec-http-4.0.12.Final-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.business/lib/netty-codec-socks-4.0.12.Final-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.business/lib/netty-common-4.0.12.Final-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.business/lib/netty-example-4.0.12.Final-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.business/lib/netty-handler-4.0.12.Final-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.business/lib/netty-transport-4.0.12.Final-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.business/lib/netty-transport-rxtx-4.0.12.Final-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.business/lib/netty-transport-sctp-4.0.12.Final-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.business/lib/netty-transport-udt-4.0.12.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

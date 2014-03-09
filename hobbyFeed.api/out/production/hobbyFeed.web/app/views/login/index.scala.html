@@ -1,0 +1,23 @@
+@(signupForm: Form[models.login.LoginDetails])
+
+@import helper._
+@import helper.twitterBootstrap._
+
+@generic.loginMaster(Html("Log in")) {
+	<form method = "POST" action ="@routes.LoginController.authenticate" >
+	   	   @inputText(
+                signupForm("email"), 
+                '_label -> "Email", 
+                '_help -> "Please enter your email.",
+                '_error -> signupForm.globalError
+            )
+	   		@inputText(
+                signupForm("password"), 
+                '_label -> "Password", 
+                '_help -> "Please enter your password.",
+                '_error -> signupForm.globalError
+            )
+
+	       <button type="submit">Login</button>
+	</form>
+}

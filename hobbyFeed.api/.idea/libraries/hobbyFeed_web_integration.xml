@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="hobbyFeed.web.integration">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.web/.target/references/hobbyFeed.web.integration.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

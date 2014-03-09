@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="spray-can-1.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.api/lib/spray-can-1.1-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.api/lib/spray-routing-1.1-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="spray-client-1.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.api/lib/spray-client-1.1-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.api/lib/spray-http-1.1-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.api/lib/spray-httpx-1.1-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

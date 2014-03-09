@@ -1,0 +1,13 @@
+@(title: Html, nav: MenuItem.MenuItem = MenuItem.Home)(content: Html)
+
+@generic.masterTemplate(title, renderMenu(nav)) { @content }
+
+@renderMenu(nav: MenuItem.MenuItem = MenuItem.Home) = {
+	 <div id="menu">
+		<ul>
+			<li class="@("active".when(nav == MenuItem.Home))"><a href='@{routes.LandingController.index()}' accesskey="1" title="">Homepage</a></li>
+			<li class="@("active".when(nav == MenuItem.Interests))"><a href="#" accesskey="2" title="">Interests</a></li>
+			<li class="@("active".when(nav == MenuItem.Settings))"><a href='@{routes.AboutUsController.index()}' accesskey="3" title="">Settings</a></li>
+		</ul>
+	</div>
+}

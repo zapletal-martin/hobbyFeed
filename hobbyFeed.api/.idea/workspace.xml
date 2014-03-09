@@ -1,0 +1,1319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3214e06c-25e3-41bf-88bc-349933209962" name="Default" comment="Making akka work&#10;">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_0_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_0_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_0_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_jaxrs_jackson_jaxrs_json_provider_2_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_concurrentlinkedhashmap_concurrentlinkedhashmap_lru_1_3_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_5_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_actor_2_10_2_2_0_RC2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_slf4j_2_10_2_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_config_1_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_wordnik_swagger_annotations_2_10_0_1_2_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_wordnik_swagger_core_2_10_0_1_2_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_7_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_npn_npn_api_1_1_0_v20120525.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json4s_json4s_ast_2_10_3_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json4s_json4s_core_2_10_3_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json4s_json4s_native_2_10_3_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mashupbots_socko_socko_rest_2_10_0_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mashupbots_socko_socko_webserver_2_10_0_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_compiler_2_10_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_reflect_2_10_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scalap_2_10_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__cglib_cglib_nodep_2_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__ch_qos_logback_logback_classic_1_0_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__ch_qos_logback_logback_core_1_0_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__com_github_scala_incubator_io_scala_io_core_2_10_0_4_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__com_github_scala_incubator_io_scala_io_file_2_10_0_4_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__com_google_code_findbugs_jsr305_2_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__com_google_guava_guava_13_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__com_h2database_h2_1_3_168.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__com_jolbox_bonecp_0_7_1_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__com_jsuereth_scala_arm_2_10_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__com_ning_async_http_client_1_7_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__com_novocode_junit_interface_0_10.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__com_typesafe_akka_akka_actor_2_10_2_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__com_typesafe_akka_akka_slf4j_2_10_2_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__com_typesafe_config_1_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__com_typesafe_netty_netty_http_pipelining_1_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__commons_codec_commons_codec_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__commons_codec_commons_codec_1_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__commons_collections_commons_collections_3_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__commons_io_commons_io_2_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__commons_lang_commons_lang_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__commons_logging_commons_logging_1_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__dom4j_dom4j_1_6_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__io_netty_netty_3_6_3_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__javax_servlet_javax_servlet_api_3_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__javax_transaction_jta_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__javax_validation_validation_api_1_0_0_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__joda_time_joda_time_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__junit_junit_dep_4_8_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__net_java_dev_jna_jna_3_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__net_java_dev_jna_platform_3_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__net_sf_ehcache_ehcache_core_2_6_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__net_sourceforge_cssparser_cssparser_0_9_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__net_sourceforge_htmlunit_htmlunit_2_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__net_sourceforge_htmlunit_htmlunit_core_js_2_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__net_sourceforge_nekohtml_nekohtml_1_9_15.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__oauth_signpost_signpost_commonshttp4_1_2_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__oauth_signpost_signpost_core_1_2_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_apache_commons_commons_exec_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_apache_commons_commons_lang3_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_apache_httpcomponents_httpclient_4_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_apache_httpcomponents_httpclient_4_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_apache_httpcomponents_httpcore_4_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_apache_httpcomponents_httpcore_4_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_apache_httpcomponents_httpmime_4_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_codehaus_jackson_jackson_core_asl_1_9_10.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_codehaus_jackson_jackson_mapper_asl_1_9_10.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_easytesting_fest_assert_1_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_easytesting_fest_util_1_1_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_fluentlenium_fluentlenium_core_0_7_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_fluentlenium_fluentlenium_festassert_0_7_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_hamcrest_hamcrest_core_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_hibernate_hibernate_validator_4_3_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_javassist_javassist_3_16_1_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_jboss_logging_jboss_logging_3_1_0_CR2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_joda_joda_convert_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_json_json_20080701.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_reflections_reflections_0_9_8.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_scala_lang_scala_library_2_10_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_scala_lang_scala_reflect_2_10_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_scala_stm_scala_stm_2_10_0_0_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_scala_tools_testing_test_interface_0_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_seleniumhq_selenium_selenium_android_driver_2_25_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_seleniumhq_selenium_selenium_api_2_25_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_seleniumhq_selenium_selenium_chrome_driver_2_25_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_seleniumhq_selenium_selenium_firefox_driver_2_25_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_seleniumhq_selenium_selenium_htmlunit_driver_2_25_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_seleniumhq_selenium_selenium_ie_driver_2_25_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_seleniumhq_selenium_selenium_iphone_driver_2_25_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_seleniumhq_selenium_selenium_java_2_25_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_seleniumhq_selenium_selenium_remote_driver_2_25_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_seleniumhq_selenium_selenium_safari_driver_2_25_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_seleniumhq_selenium_selenium_support_2_25_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_slf4j_jcl_over_slf4j_1_6_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_slf4j_jul_to_slf4j_1_6_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_slf4j_slf4j_api_1_6_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_specs2_scalaz_concurrent_2_10_7_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_specs2_scalaz_core_2_10_7_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_specs2_scalaz_effect_2_10_7_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_specs2_specs2_2_10_1_13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_springframework_spring_beans_3_1_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_springframework_spring_context_3_1_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_springframework_spring_core_3_1_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_w3c_css_sac_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_webbitserver_webbit_0_4_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__org_yaml_snakeyaml_1_10.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__play_anorm_2_10_2_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__play_play_2_10_2_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__play_play_exceptions_2_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__play_play_iteratees_2_10_2_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__play_play_java_2_10_2_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__play_play_jdbc_2_10_2_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__play_play_test_2_10_2_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__play_sbt_link_2_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__play_templates_2_10_2_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__scala_compiler_2_10_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__tyrex_tyrex_1_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__xalan_serializer_2_7_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__xalan_xalan_2_7_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__xerces_xercesImpl_2_9_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__xml_apis_xml_apis_1_0_b2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__SBT__xml_apis_xml_apis_1_3_04.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/api/hobbyFeed/core/container/spring/AppConfiguration.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/api/hobbyFeed/core/container/spring/SpringActorProducer.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/api/hobbyFeed/core/container/spring/SpringExtension.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/api/hobbyFeed/core/container/spring/SpringExtensionImpl.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/scala/api/hobbyFeed/AppTest.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/SomeCoreActor.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/WebSocketPushActor.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hobbyFeed.business/src/test/scala/api/hobbyFeed/AppTest.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/hobbyFeed.api/hobbyFeed.api.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/hobbyFeed.business/hobbyFeed.business_depr.iml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/article/ArticleProvider.scala" afterPath="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/article/SearchProvider.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.classpath" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.classpath" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/public/javascripts/landing/node_modules/jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/node_modules/cryptiles/.npmignore" afterPath="$PROJECT_DIR$/../hobbyFeed.web/public/javascripts/landing/node_modules/jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/node_modules/cryptiles/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/public/javascripts/landing/node_modules/jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/node_modules/hoek/.npmignore" afterPath="$PROJECT_DIR$/../hobbyFeed.web/public/javascripts/landing/node_modules/jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/node_modules/hoek/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.project" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.project" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/public/javascripts/landing/node_modules/jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/node_modules/cryptiles/.travis.yml" afterPath="$PROJECT_DIR$/../hobbyFeed.web/public/javascripts/landing/node_modules/jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/node_modules/cryptiles/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/public/javascripts/landing/node_modules/jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/node_modules/hoek/.travis.yml" afterPath="$PROJECT_DIR$/../hobbyFeed.web/public/javascripts/landing/node_modules/jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/node_modules/hoek/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/10.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/10.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/2.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/3.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/4.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/5.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/6.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/7.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/8.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/8.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/9.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/9.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/app/controllers/AboutUsController.scala" afterPath="$PROJECT_DIR$/../hobbyFeed.web/app/controllers/AboutUsController.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/api/hobbyFeed/App.scala" afterPath="$PROJECT_DIR$/src/main/scala/api/hobbyFeed/App.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/article/Article.scala" afterPath="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/article/Article.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/article/ArticleReference.scala" afterPath="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/article/ArticleReference.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/app/models/CookieValues.scala" afterPath="$PROJECT_DIR$/../hobbyFeed.web/app/models/CookieValues.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/api/hobbyFeed/core/Core.scala" afterPath="$PROJECT_DIR$/src/main/scala/api/hobbyFeed/core/Core.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/app/container/DevelopmentModule.scala" afterPath="$PROJECT_DIR$/../hobbyFeed.web/app/container/DevelopmentModule.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/src/authentication/FakeAuthenticationService.scala" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/src/authentication/FakeAuthenticationService.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/feed/faroo/FarooFeed.scala" afterPath="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/feed/faroo/FarooFeed.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/feed/faroo/FarooServiceClient.scala" afterPath="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/feed/faroo/FarooServiceClient.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/feed/consolidated/Feed.scala" afterPath="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/feed/consolidated/Feed.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/feed/consolidated/FeedConsolidator.scala" afterPath="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/feed/consolidated/FeedConsolidator.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/app/Global.scala" afterPath="$PROJECT_DIR$/../hobbyFeed.web/app/Global.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/feed/google/GoogleFeed.scala" afterPath="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/feed/google/GoogleFeed.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/app/models/landing/HobbyInput.scala" afterPath="$PROJECT_DIR$/../hobbyFeed.web/app/models/landing/HobbyInput.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/src/authentication/IAuthenticationService.scala" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/src/authentication/IAuthenticationService.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/src/injectionTest/IShouting.scala" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/src/injectionTest/IShouting.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/public/javascripts/landing/node_modules/jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/node_modules/hoek/LICENSE" afterPath="$PROJECT_DIR$/../hobbyFeed.web/public/javascripts/landing/node_modules/jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/node_modules/hoek/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/app/controllers/LandingController.scala" afterPath="$PROJECT_DIR$/../hobbyFeed.web/app/controllers/LandingController.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/public/javascripts/landing/LandingPageLifeCycle.coffee" afterPath="$PROJECT_DIR$/../hobbyFeed.web/public/javascripts/landing/LandingPageLifeCycle.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/app/controllers/LoginController.scala" afterPath="$PROJECT_DIR$/../hobbyFeed.web/app/controllers/LoginController.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/app/models/login/LoginDetails.scala" afterPath="$PROJECT_DIR$/../hobbyFeed.web/app/models/login/LoginDetails.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/public/javascripts/landing/node_modules/jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/node_modules/hoek/Makefile" afterPath="$PROJECT_DIR$/../hobbyFeed.web/public/javascripts/landing/node_modules/jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/node_modules/hoek/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_0_9.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_0_9.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__ch_qos_logback_logback_core_1_0_9.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__ch_qos_logback_logback_core_1_0_9.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_0_4.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_0_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_0_0.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_0_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_0_0.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_0_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__com_fasterxml_jackson_jaxrs_jackson_jaxrs_json_provider_2_0_0.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__com_fasterxml_jackson_jaxrs_jackson_jaxrs_json_provider_2_0_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_0_0.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_0_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__com_googlecode_concurrentlinkedhashmap_concurrentlinkedhashmap_lru_1_3_2.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__com_googlecode_concurrentlinkedhashmap_concurrentlinkedhashmap_lru_1_3_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_5_2.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_5_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__com_typesafe_akka_akka_actor_2_10_2_2_0_RC2.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__com_typesafe_akka_akka_actor_2_10_2_2_0_RC2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__com_typesafe_akka_akka_slf4j_2_10_2_2_1.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__com_typesafe_akka_akka_slf4j_2_10_2_2_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__com_typesafe_config_1_0_1.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__com_typesafe_config_1_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__com_wordnik_swagger_annotations_2_10_0_1_2_0.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__com_wordnik_swagger_annotations_2_10_0_1_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__com_wordnik_swagger_core_2_10_0_1_2_0.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__com_wordnik_swagger_core_2_10_0_1_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__io_netty_netty_3_7_0_Final.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__io_netty_netty_3_7_0_Final.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__org_eclipse_jetty_npn_npn_api_1_1_0_v20120525.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__org_eclipse_jetty_npn_npn_api_1_1_0_v20120525.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__org_json4s_json4s_ast_2_10_3_2_1.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__org_json4s_json4s_ast_2_10_3_2_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__org_json4s_json4s_core_2_10_3_2_1.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__org_json4s_json4s_core_2_10_3_2_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__org_json4s_json4s_native_2_10_3_2_1.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__org_json4s_json4s_native_2_10_3_2_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__org_mashupbots_socko_socko_rest_2_10_0_3_1.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__org_mashupbots_socko_socko_rest_2_10_0_3_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__org_mashupbots_socko_socko_webserver_2_10_0_3_1.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__org_mashupbots_socko_socko_webserver_2_10_0_3_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__org_scala_lang_scala_compiler_2_10_0.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__org_scala_lang_scala_compiler_2_10_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_compiler_bundle_2_10_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_compiler_bundle_2_10_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__org_scala_lang_scala_compiler_bundle_2_10_2.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__org_scala_lang_scala_compiler_bundle_2_10_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_10_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_10_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__org_scala_lang_scala_library_2_10_2.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__org_scala_lang_scala_library_2_10_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__org_scala_lang_scala_reflect_2_10_2.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__org_scala_lang_scala_reflect_2_10_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__org_scala_lang_scalap_2_10_0.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__org_scala_lang_scalap_2_10_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_2.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/app/models/MenuItem.scala" afterPath="$PROJECT_DIR$/../hobbyFeed.web/app/models/MenuItem.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/src/injectionTest/OneShout.scala" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/src/injectionTest/OneShout.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/api/hobbyFeed/core/container/guice/ProductionModule.scala" afterPath="$PROJECT_DIR$/src/main/scala/api/hobbyFeed/core/container/guice/ProductionModule.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/app/container/ProductionModule.scala" afterPath="$PROJECT_DIR$/../hobbyFeed.web/app/container/ProductionModule.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/public/javascripts/landing/node_modules/jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/node_modules/hoek/README.md" afterPath="$PROJECT_DIR$/../hobbyFeed.web/public/javascripts/landing/node_modules/jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/node_modules/hoek/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/feed/identity/RequestIdentity.scala" afterPath="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/feed/identity/RequestIdentity.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/api/hobbyFeed/routing/Router.scala" afterPath="$PROJECT_DIR$/src/main/scala/api/hobbyFeed/routing/Router.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/api/hobbyFeed/routing/RoutingActor.scala" afterPath="$PROJECT_DIR$/src/main/scala/api/hobbyFeed/routing/RoutingActor.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/public/images/ScalaForms.htm" afterPath="$PROJECT_DIR$/../hobbyFeed.web/public/images/ScalaForms.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/serviceHandling/ServiceClient.scala" afterPath="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/serviceHandling/ServiceClient.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/util/StringToIntConverter.scala" afterPath="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/util/StringToIntConverter.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/.target/TODO.txt" afterPath="$PROJECT_DIR$/../hobbyFeed.web/.target/TODO.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/app/TODO.txt" afterPath="$PROJECT_DIR$/../hobbyFeed.web/app/TODO.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/src/injectionTest/TwoShout.scala" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/src/injectionTest/TwoShout.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/feedRequest/UserInputRequest.scala" afterPath="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/feedRequest/UserInputRequest.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/feedRequest/UserWebSocketConnectionRequest.scala" afterPath="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/feedRequest/UserWebSocketConnectionRequest.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/feedRequest/UserWebSocketRequest.scala" afterPath="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/feedRequest/UserWebSocketRequest.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/feed/identity/WebSocketConnectionIdentity.scala" afterPath="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/feed/identity/WebSocketConnectionIdentity.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/public/javascripts/landing/WebSocketEventHandler.coffee" afterPath="$PROJECT_DIR$/../hobbyFeed.web/public/javascripts/landing/WebSocketEventHandler.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/public/javascripts/landing/WebSocketHandler.coffee" afterPath="$PROJECT_DIR$/../hobbyFeed.web/public/javascripts/landing/WebSocketHandler.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/akka_actor_2_10_2_2_1.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/akka_actor_2_10_2_2_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/akka_actor_2_10_2_2_1__2_.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/akka_actor_2_10_2_2_1__2_.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/akka_actor_2_10_2_2_1__3_.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/akka_actor_2_10_2_2_1__3_.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/aopalliance.xml" afterPath="$PROJECT_DIR$/.idea/libraries/aopalliance.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/public/images/ScalaForms_files/css(1).css" afterPath="$PROJECT_DIR$/../hobbyFeed.web/public/images/ScalaForms_files/css(1).css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/public/images/ScalaForms_files/css.css" afterPath="$PROJECT_DIR$/../hobbyFeed.web/public/images/ScalaForms_files/css.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/public/stylesheets/default.css" afterPath="$PROJECT_DIR$/../hobbyFeed.web/public/stylesheets/default.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/encodings.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/public/javascripts/landing/node_modules/jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/node_modules/hoek/lib/escape.js" afterPath="$PROJECT_DIR$/../hobbyFeed.web/public/javascripts/landing/node_modules/jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/node_modules/hoek/lib/escape.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/public/javascripts/landing/node_modules/jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/node_modules/hoek/test/escaper.js" afterPath="$PROJECT_DIR$/../hobbyFeed.web/public/javascripts/landing/node_modules/jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/node_modules/hoek/test/escaper.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/public/stylesheets/fonts.css" afterPath="$PROJECT_DIR$/../hobbyFeed.web/public/stylesheets/fonts.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/highlighting.xml" afterPath="$PROJECT_DIR$/.idea/highlighting.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/highlighting.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/highlighting.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/project/hobbyFeed-build.iml" afterPath="$PROJECT_DIR$/../hobbyFeed.web/project/hobbyFeed-build.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hobbyFeed.api.iml" afterPath="$PROJECT_DIR$/hobbyFeed.api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.business/hobbyFeed.business.iml" afterPath="$PROJECT_DIR$/../hobbyFeed.business/hobbyFeed.business.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/hobbyFeed.web.integration.iml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/hobbyFeed.web.integration.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.models/hobbyFeed.web.models.iml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.models/hobbyFeed.web.models.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/hobbyFeed_web_integration.xml" afterPath="$PROJECT_DIR$/.idea/libraries/hobbyFeed_web_integration.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/hobbyFeed_web_integration1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/hobbyFeed_web_integration1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/hobbyFeed_web_integration2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/hobbyFeed_web_integration2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/hobbyFeed_web_integration3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/hobbyFeed_web_integration3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/public/javascripts/landing/node_modules/jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/node_modules/hoek/lib/index.js" afterPath="$PROJECT_DIR$/../hobbyFeed.web/public/javascripts/landing/node_modules/jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/node_modules/hoek/lib/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/public/javascripts/landing/node_modules/jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/node_modules/hoek/test/index.js" afterPath="$PROJECT_DIR$/../hobbyFeed.web/public/javascripts/landing/node_modules/jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/node_modules/hoek/test/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/.target/views/aboutus/index.scala.html" afterPath="$PROJECT_DIR$/../hobbyFeed.web/.target/views/aboutus/index.scala.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/.target/views/login/index.scala.html" afterPath="$PROJECT_DIR$/../hobbyFeed.web/.target/views/login/index.scala.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/app/views/aboutus/index.scala.html" afterPath="$PROJECT_DIR$/../hobbyFeed.web/app/views/aboutus/index.scala.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/app/views/login/index.scala.html" afterPath="$PROJECT_DIR$/../hobbyFeed.web/app/views/login/index.scala.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/public/images/ScalaForms_files/jquery-1.8.2.min.js" afterPath="$PROJECT_DIR$/../hobbyFeed.web/public/images/ScalaForms_files/jquery-1.8.2.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/lib1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/lib1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/log.txt" afterPath="$PROJECT_DIR$/../hobbyFeed.web/log.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/app/views/generic/loginMaster.scala.html" afterPath="$PROJECT_DIR$/../hobbyFeed.web/app/views/generic/loginMaster.scala.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/public/images/ScalaForms_files/main.css" afterPath="$PROJECT_DIR$/../hobbyFeed.web/public/images/ScalaForms_files/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/.target/views/generic/master.scala.html" afterPath="$PROJECT_DIR$/../hobbyFeed.web/.target/views/generic/master.scala.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/app/views/generic/master.scala.html" afterPath="$PROJECT_DIR$/../hobbyFeed.web/app/views/generic/master.scala.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/app/views/generic/masterTemplate.scala.html" afterPath="$PROJECT_DIR$/../hobbyFeed.web/app/views/generic/masterTemplate.scala.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/misc.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/modules.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/netty_3_8_0_Final_sources.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/netty_3_8_0_Final_sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/netty_all_4_0_12_Final.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/netty_all_4_0_12_Final.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/netty_buffer_4_0_12_Final.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/netty_buffer_4_0_12_Final.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/public/javascripts/landing/npm-debug.log" afterPath="$PROJECT_DIR$/../hobbyFeed.web/public/javascripts/landing/npm-debug.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.business/pom.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.business/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/root_2_10_1_1_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/root_2_10_1_1_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sbt.xml" afterPath="$PROJECT_DIR$/.idea/sbt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/scala_compiler.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/scala_compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/scala_library.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/scala_library.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scala_settings.xml" afterPath="$PROJECT_DIR$/.idea/scala_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/scala_settings.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/scala_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/scopes/scope_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/slf4j_ext_1_7_5_sources.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/slf4j_ext_1_7_5_sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/socko_2_10_0_1_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/socko_2_10_0_1_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/socko_webserver_2_10_0_3_1.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/socko_webserver_2_10_0_3_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/socko_webserver_2_10_0_3_1__2_.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/socko_webserver_2_10_0_3_1__2_.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/spray_can_1_1_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/spray_can_1_1_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/spray_client_1_1_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/libraries/spray_client_1_1_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/public/javascripts/landing/node_modules/jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/node_modules/hoek/test/modules/test1.js" afterPath="$PROJECT_DIR$/../hobbyFeed.web/public/javascripts/landing/node_modules/jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/node_modules/hoek/test/modules/test1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/public/javascripts/landing/node_modules/jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/node_modules/hoek/test/modules/test2.js" afterPath="$PROJECT_DIR$/../hobbyFeed.web/public/javascripts/landing/node_modules/jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/node_modules/hoek/test/modules/test2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/public/javascripts/landing/node_modules/jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/node_modules/hoek/test/modules/test3.js" afterPath="$PROJECT_DIR$/../hobbyFeed.web/public/javascripts/landing/node_modules/jquery/node_modules/jsdom/node_modules/request/node_modules/hawk/node_modules/hoek/test/modules/test3.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/uiDesigner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web/app/scripts/landing/websocket.js" afterPath="$PROJECT_DIR$/../hobbyFeed.web/app/scripts/landing/websocket.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../hobbyFeed.web.integration/.idea/workspace.xml" />
+    </list>
+    <ignored path="hobbyFeed.api.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="hobbyFeed.api" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Core.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/api/hobbyFeed/core/Core.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="0" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Router.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/api/hobbyFeed/routing/Router.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="0" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1035">
+              <folding>
+                <element signature="e#31#84#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoutingActor.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/api/hobbyFeed/routing/RoutingActor.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="111" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Article.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/article/Article.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="11" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringToIntConverter.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/util/StringToIntConverter.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="0" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IShouting.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../hobbyFeed.web.integration/src/injectionTest/IShouting.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="6" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OneShout.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../hobbyFeed.web.integration/src/injectionTest/OneShout.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="6" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TwoShout.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../hobbyFeed.web.integration/src/injectionTest/TwoShout.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="6" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IAuthenticationService.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../hobbyFeed.web.integration/src/authentication/IAuthenticationService.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="6" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FakeAuthenticationService.scala" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../hobbyFeed.web.integration/src/authentication/FakeAuthenticationService.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="3" selection-start="494" selection-end="494" vertical-scroll-proportion="0.46632123" vertical-offset="0" max-vertical-offset="579">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/feedRequest/UserWebSocketRequest.scala" />
+        <option value="$PROJECT_DIR$/../hobbyFeed.web/app/views/generic/masterTemplate.scala.html" />
+        <option value="$PROJECT_DIR$/../hobbyFeed.web/public/javascripts/landing/WebSocketHandler.js" />
+        <option value="$PROJECT_DIR$/../hobbyFeed.web/public/javascripts/landing/LandingPageLifeCycle.js" />
+        <option value="$PROJECT_DIR$/../hobbyFeed.web/public/javascripts/landing/LandingPageLifeCycle.coffee" />
+        <option value="$PROJECT_DIR$/../hobbyFeed.web/public/javascripts/landing/WebSocketEventHandler.js" />
+        <option value="$PROJECT_DIR$/../hobbyFeed.web/public/javascripts/landing/WebSocketHandler.coffee" />
+        <option value="$PROJECT_DIR$/../hobbyFeed.web/public/stylesheets/default.css" />
+        <option value="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/feed/fake/FakeFeed.scala" />
+        <option value="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/article/Provider.scala" />
+        <option value="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/article/Article.scala" />
+        <option value="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/container/ProductionModule.scala" />
+        <option value="$PROJECT_DIR$/../hobbyFeed.web/app/Global.scala" />
+        <option value="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/container/spring/SpringExtension.scala" />
+        <option value="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/container/spring/SpringActorProducer.scala" />
+        <option value="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/container/spring/SpringExtensionImpl.scala" />
+        <option value="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/container/spring/AppConfiguration.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/api/hobbyFeed/core/spring/AppConfiguration.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/api/hobbyFeed/core/spring/SpringActorProducer.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/api/hobbyFeed/core/spring/SpringExtension.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/api/hobbyFeed/core/spring/SpringExtensionImpl.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/api/hobbyFeed/core/container/spring/AppConfiguration.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/api/hobbyFeed/core/container/spring/SpringActorProducer.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/api/hobbyFeed/core/container/spring/SpringExtension.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/api/hobbyFeed/core/container/spring/SpringExtensionImpl.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/api/hobbyFeed/core/container/guice/GuiceInjector.scala" />
+        <option value="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/serviceHandling/ServiceClient.scala" />
+        <option value="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/feed/faroo/FarooServiceClient.scala" />
+        <option value="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/article/ArticleProvider.scala" />
+        <option value="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/article/SearchProvider.scala" />
+        <option value="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/feed/faroo/FarooServiceResponseParser.scala" />
+        <option value="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/serviceHandling/ServiceResponseParser.scala" />
+        <option value="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/feed/consolidated/Feed.scala" />
+        <option value="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/feed/google/GoogleFeed.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/api/hobbyFeed/routing/RoutingActor.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/api/hobbyFeed/util/ActorNameGenerator.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/api/hobbyFeed/core/container/guice/ProductionModule.scala" />
+        <option value="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/feed/consolidated/FeedConsolidator.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../hobbyFeed.business/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/scala/api/hobbyFeed/core/Core.scala" />
+        <option value="$PROJECT_DIR$/../hobbyFeed.business.specification/pom.xml" />
+        <option value="$PROJECT_DIR$/../hobbyFeed.business.specification/src/main/feed/faroo/when_parsing_response_from_faroo_api.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/api/hobbyFeed/util/SetFun.scala" />
+        <option value="$PROJECT_DIR$/../hobbyFeed.web/app/views/landing/index.scala.html" />
+        <option value="$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/feed/faroo/FarooFeed.scala" />
+        <option value="$PROJECT_DIR$/../hobbyFeed.web/public/javascripts/landing/WebSocketEventHandler.coffee" />
+        <option value="$PROJECT_DIR$/src/main/scala/api/hobbyFeed/util/SetExercise.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/api/hobbyFeed/util/FizzBuzz.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/api/hobbyFeed/App.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/api/hobbyFeed/routing/Router.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="lookForNested" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1680" />
+    <option name="height" value="1024" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hobbyFeed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hobbyFeed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hobbyFeed.api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="options.lastSelected" value="editor.preferences.appearance" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="SearchEverywhereHistory" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Code\hobbyFeed\hobbyFeed.web\public\javascripts\landing" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.App">
+    <configuration default="false" name="App" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="api.hobbyFeed.core.App" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="hobbyFeed.api" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.App" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="tasksExpandState">
+      <map>
+        <entry key="" value="true" />
+      </map>
+    </option>
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="hobbyFeed" />
+              <option name="path" value="$PROJECT_DIR$/../hobbyFeed.web" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="hobbyFeed" />
+                <option name="path" value="$PROJECT_DIR$/../hobbyFeed.web" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="hobbyFeed-build" />
+                <option name="path" value="$PROJECT_DIR$/../hobbyFeed.web/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/../hobbyFeed.web" value="1386798071973" />
+      </map>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3214e06c-25e3-41bf-88bc-349933209962" name="Default" comment="" />
+      <created>1385505128355</created>
+      <updated>1385505128355</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1024" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39717084" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3254565" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20178571" sideWeight="0.39968154" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3254565" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20178571" sideWeight="0.6003185" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3258595" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32861805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297619" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.10.2/scala-library-2.10.2-sources.jar!/scala/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="48" selection-start="3063" selection-end="3063" vertical-scroll-proportion="0.0" vertical-offset="1080" max-vertical-offset="2160">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.10.2/scala-library-2.10.2-sources.jar!/scala/collection/immutable/Stream.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1042" column="8" selection-start="37690" selection-end="37690" vertical-scroll-proportion="0.0" vertical-offset="15630" max-vertical-offset="17445">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/api/hobbyFeed/App.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="42" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/article/SearchProvider.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.10.2/scala-library-2.10.2.jar!/scala/collection/generic/GenericTraversableTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="6" selection-start="253" selection-end="253" vertical-scroll-proportion="0.08121019" vertical-offset="0" max-vertical-offset="628" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/feed/consolidated/Feed.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="4" selection-start="342" selection-end="342" vertical-scroll-proportion="0.3548387" vertical-offset="0" max-vertical-offset="527" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/feed/google/GoogleFeed.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="25" selection-start="607" selection-end="607" vertical-scroll-proportion="0.5622568" vertical-offset="0" max-vertical-offset="514" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.10.2/scala-library-2.10.2.jar!/scala/collection/MapLike.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="6" selection-start="988" selection-end="988" vertical-scroll-proportion="0.34969324" vertical-offset="16" max-vertical-offset="1139" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.10.2/scala-library-2.10.2.jar!/scala/Predef.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="6" selection-start="363" selection-end="363" vertical-scroll-proportion="0.27091634" vertical-offset="0" max-vertical-offset="3570" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/api/hobbyFeed/util/ActorNameGenerator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="26" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.10.2/scala-library-2.10.2.jar!/scala/concurrent/Future.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="6" selection-start="31" selection-end="31" vertical-scroll-proportion="0.030630631" vertical-offset="0" max-vertical-offset="765" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.10.2/scala-library-2.10.2.jar!/scala/io/Source.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="16" selection-start="4956" selection-end="4956" vertical-scroll-proportion="0.64684683" vertical-offset="763" max-vertical-offset="1343" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/feed/faroo/FarooServiceClient.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="29" selection-start="450" selection-end="450" vertical-scroll-proportion="0.22934233" vertical-offset="0" max-vertical-offset="593" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/serviceHandling/ServiceClient.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="10" selection-start="130" selection-end="130" vertical-scroll-proportion="0.14333895" vertical-offset="0" max-vertical-offset="593" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="66" selection-start="1567" selection-end="1567" vertical-scroll-proportion="0.58064514" vertical-offset="561" max-vertical-offset="1734">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/feed/consolidated/FeedConsolidator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="34" selection-start="1231" selection-end="1231" vertical-scroll-proportion="0.0" vertical-offset="233" max-vertical-offset="782" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hobbyFeed.business/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="74" selection-start="1703" selection-end="1703" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="1649" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.10.2/scala-library-2.10.2-sources.jar!/scala/Predef.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="33" selection-start="4576" selection-end="4589" vertical-scroll-proportion="0.3326226" vertical-offset="1255" max-vertical-offset="7752" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hobbyFeed.web/app/views/login/index.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="20" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="476" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hobbyFeed.web/app/Global.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="48" selection-start="2155" selection-end="2155" vertical-scroll-proportion="0.6515151" vertical-offset="344" max-vertical-offset="1054" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hobbyFeed.web/conf/routes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="71" selection-start="556" selection-end="556" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hobbyFeed.web/app/controllers/AboutUsController.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="27" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hobbyFeed.web/public/javascripts/landing/LandingPageLifeCycle.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="29" selection-start="124" selection-end="135" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hobbyFeed.web/public/javascripts/landing/WebSocketEventHandler.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="41" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hobbyFeed.web/public/javascripts/landing/WebSocketHandler.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="27" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/feed/faroo/FarooFeed.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="22" selection-start="1355" selection-end="1355" vertical-scroll-proportion="0.0" vertical-offset="73" max-vertical-offset="748" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hobbyFeed.web/app/controllers/LandingController.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="12" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hobbyFeed.web/app/models/login/LoginDetails.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="11" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../hobbyFeed.web/lib/hobbyFeed.web.integration.jar!/authentication/IAuthenticationService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="14" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="221" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hobbyFeed.web/app/controllers/LoginController.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="22" selection-start="1319" selection-end="1319" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="731" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hobbyFeed.web/app/views/generic/master.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="47" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="323" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hobbyFeed.web/app/views/generic/masterTemplate.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="748" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hobbyFeed.web/app/views/generic/loginMaster.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hobbyFeed.web/app/views/aboutus/index.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="187" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hobbyFeed.web/app/views/landing/index.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="25" selection-start="572" selection-end="572" vertical-scroll-proportion="-9.192307" vertical-offset="33" max-vertical-offset="629" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.10.2/scala-library-2.10.2-sources.jar!/scala/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="48" selection-start="3063" selection-end="3063" vertical-scroll-proportion="0.0" vertical-offset="981" max-vertical-offset="2346">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.10.2/scala-library-2.10.2-sources.jar!/scala/collection/immutable/Stream.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1042" column="8" selection-start="37690" selection-end="37690" vertical-scroll-proportion="0.0" vertical-offset="17407" max-vertical-offset="19601">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/api/hobbyFeed/util/SetExercise.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/api/hobbyFeed/util/FizzBuzz.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="67" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/api/hobbyFeed/App.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="42" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/api/hobbyFeed/core/container/guice/ProductionModule.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="5" selection-start="1287" selection-end="1287" vertical-scroll-proportion="0.0" vertical-offset="74" max-vertical-offset="675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/api/hobbyFeed/core/Core.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/api/hobbyFeed/routing/Router.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1035">
+          <folding>
+            <element signature="e#31#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/api/hobbyFeed/routing/RoutingActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="111" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/article/Article.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="11" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hobbyFeed.business/src/main/scala/business/hobbyFeed/util/StringToIntConverter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hobbyFeed.web.integration/src/injectionTest/IShouting.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="6" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hobbyFeed.web.integration/src/injectionTest/OneShout.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="6" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hobbyFeed.web.integration/src/injectionTest/TwoShout.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="6" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hobbyFeed.web.integration/src/authentication/IAuthenticationService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="6" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../hobbyFeed.web.integration/src/authentication/FakeAuthenticationService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="3" selection-start="494" selection-end="494" vertical-scroll-proportion="0.46632123" vertical-offset="0" max-vertical-offset="579">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Scala (hobbyFeed)|Scala</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>hobbyFeed.api</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.0.9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

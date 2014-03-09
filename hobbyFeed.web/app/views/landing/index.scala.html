@@ -1,0 +1,31 @@
+@(inputForm: Form[app.models.landing.HobbyInput])
+
+@import helper._
+@import helper.twitterBootstrap._
+@import app.models.MenuItem
+
+<!--@() pro view bez parametrow-->
+
+@generic.master(Html("Home"), app.models.MenuItem.Home) {
+
+<script src="@routes.Assets.at("javascripts/landing/WebSocketEventHandler.js")"></script>
+<script src="@routes.Assets.at("javascripts/landing/WebSocketHandler.js")"></script>
+<script src="@routes.Assets.at("javascripts/landing/LandingPageLifeCycle.js")"></script>
+
+ <div class="mainContent">
+     <div class="userInput">
+         <form method = "POST" action ="@routes.LandingController.index" >
+                 @inputText(
+                     inputForm("keyword"),
+                     '_label -> "Enter keywords",
+                     '_error -> inputForm.globalError
+                 )
+             <button type="button" id="submitFeed">Go</button>
+         </form>
+     </div>
+ </div>
+
+<div id="feedData">
+
+</div>
+}

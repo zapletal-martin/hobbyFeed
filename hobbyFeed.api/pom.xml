@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>api.hobbyFeed</groupId>
+  <artifactId>hobbyFeed.api</artifactId>
+  <version>1</version>
+
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>..\\hobbyFeed.business</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <scala.version>2.10.2</scala.version>
+    </properties>
+
+  <repositories>
+        <repository>
+          <id>typesafe</id>
+          <name>Typesafe Repository</name>
+          <url>http://repo.typesafe.com/typesafe/releases/</url>
+        </repository>
+  </repositories>
+
+  <dependencies>
+      <dependency>
+          <groupId>com.typesafe.akka</groupId>
+          <artifactId>akka-actor_2.10</artifactId>
+          <version>2.2.0-RC2</version>
+      </dependency>
+
+      <dependency>
+          <groupId>org.scala-lang</groupId>
+          <artifactId>scala-library</artifactId>
+          <version>${scala.version}</version>
+      </dependency>
+
+      <dependency>
+          <groupId>org.mashupbots.socko</groupId>
+          <artifactId>socko-rest_2.10</artifactId>
+          <version>0.3.1</version>
+      </dependency>
+
+      <dependency>
+          <groupId>com.google.inject</groupId>
+          <artifactId>guice</artifactId>
+          <version>3.0</version>
+      </dependency>
+
+      <dependency>
+          <groupId>net.liftweb</groupId>
+          <artifactId>lift-json_2.10</artifactId>
+          <version>2.5-M4</version>
+      </dependency>
+  </dependencies>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.scala-tools</groupId>
+                    <artifactId>maven-scala-plugin</artifactId>
+                    <version>2.15.2</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+
+        <plugins>
+            <plugin>
+                <groupId>org.scala-tools</groupId>
+                <artifactId>maven-scala-plugin</artifactId>
+                <version>2.15.2</version>
+            </plugin>
+        </plugins>
+    </build>
+</project>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

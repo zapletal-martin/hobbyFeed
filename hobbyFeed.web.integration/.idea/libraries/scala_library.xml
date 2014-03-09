@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="scala-library">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.business/lib/scala-library.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.business/lib/scala-compiler.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.business/lib/diffutils.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.business/lib/scala-actors.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.business/lib/scala-parser-combinators.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.business/lib/akka-actors.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.business/lib/jline.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.business/lib/scala-actors-migration.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.business/lib/scala-reflect.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.business/lib/scala-partest.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.business/lib/scala-swing.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.business/lib/scala-xml.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.business/lib/scalap.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.business/lib/test-interface.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../hobbyFeed.business/lib/typesafe-config.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

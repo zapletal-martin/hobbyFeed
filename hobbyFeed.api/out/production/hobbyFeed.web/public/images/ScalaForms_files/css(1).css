@@ -1,0 +1,12 @@
+@font-face {
+	font-family: Open Sans Condensed;
+	src: local("Open Sans Cond Light"), local("OpenSans-CondensedLight"), url(http://themes.googleusercontent.com/static/fonts/opensanscondensed/v6/gk5FxslNkTTHtojXrkp-xOnoCx_jK1JUF_-5xuexfsU.eot) format("embedded-opentype"), url(http://themes.googleusercontent.com/static/fonts/opensanscondensed/v6/gk5FxslNkTTHtojXrkp-xF1YPouZEKgzpqZW9wN-3Ek.woff) format("woff");
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: Open Sans Condensed;
+	src: local("Open Sans Condensed Bold"), local("OpenSans-CondensedBold"), url(http://themes.googleusercontent.com/static/fonts/opensanscondensed/v6/gk5FxslNkTTHtojXrkp-xK1G_hHhJSbmG3TYw9dbn0A.eot) format("embedded-opentype"), url(http://themes.googleusercontent.com/static/fonts/opensanscondensed/v6/gk5FxslNkTTHtojXrkp-xONSK5BxN3NFS4EJkViHIqo.woff) format("woff");
+	font-weight: 700;
+	font-style: normal;
+}

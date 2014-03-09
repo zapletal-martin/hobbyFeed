@@ -1,0 +1,23 @@
+@()
+
+@generic.master(Html("Home"), MenuItem.Home) {
+    <script src="../../scripts/landing/websocket.js"></script>
+
+    <div class="mainContent">
+        <div class="userInput">
+            <form method = "POST" action ="@routes.LoginController.authenticate" >
+                    @inputText(
+                    signupForm("email"),
+                    '_label -> "Email",
+                    '_help -> "Please enter your email.",
+                    '_error -> signupForm.globalError
+                    )
+                <button type="submit">Login</button>
+            </form>
+        </div>
+
+        <div class="data">
+
+        </div>
+    </div>
+}
